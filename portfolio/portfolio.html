@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="portfolio.css">
+    </head>
+    <body>
+        <img class="displayed" id="image" src="langiT.jpg" alt="Langi T" height="300" width="215">
+        <button class="buttonchange" onclick="changeElement()">Change Image</button>
+        <script>
+            var isChanged = false;
+            function changeElement() {
+                if(isChanged == false)
+                {
+                    document.getElementById("image").src="LangiFoot.jpg";
+                    isChanged = true;
+                }
+                else
+                {
+                    document.getElementById("image").src="LangiT.jpg";
+                    isChanged = false;
+                }
+            }
+        </script>
+        <h1>Hello World!</h1>
+        <p1>Aspiring computer scientist with leadership, and hard work attributes carried over from being a student athlete. I have led my high school to multiple state championships from freshman to senior year. Service is always my main concern, the only reason I want to make a reasonable amount of money is to be able to help the people around me that are in need. I am also a great person to be around I will lift people's spirits in the room just by speaking to them.</p1>
+        <h2>This is my basic work experience</h1>
+        <ul style="list-style-type:circle">
+            <li>Camp Coach:</li>
+            <p1>Coach Highschool football players some techniques that College football players use</p1>
+            
+            <li>Swig Drink Mixer:</li>
+            <p1>Spent a proficient amount of time mixing various drinks for costumors</p1>
+        </ul>
+        <h2>Here are some of my particular skills</h1>
+
+        <ol type="1">
+            <li>proficient in C++ and Java:</li>
+            <p1>programming langauges that show proficient problem solving skills</p1>
+            <li>Former member of Pryde group from the BYU Football team:</li>
+            <p1>Leadership council for BYU's Footbal team. Shows that I am capable of working with others very well.</p1>
+            <li>Knowledgable in HTML. Here are a few practice assignments:</li>
+            <a href="random.html"> Header.html</a> <a href="randompic.html">Picture.html</a>
+
+        </ol>
+
+        <p1>If you would like to know more please visit my LinkdIn or GitHub:</p1>
+        <hr>
+        <a class= "linkd" href ="https://www.linkedin.com/in/langi-tuifua-0630a816b"> My LinkdIn</a>
+        <a class= "Git" href="https://github.com/lt49swegger"> My GitHub</a>
+        <hr>
+       
+
+        
+    </body>
+    
+</html>
